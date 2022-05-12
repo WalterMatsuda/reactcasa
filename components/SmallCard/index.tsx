@@ -1,7 +1,7 @@
 
 import React  from "react";
 import {Codigo, Container, ConteudoCodigo, ConteudoNome, ConteudoSvg, Nome } from "./styles";
-import Charmander from '../../assets/pokemons/Charmander.svg';
+import Charmander from '../../src/assets/pokemons/Charmander.svg';
 function SmallCard(){
     return(
 <Container>
