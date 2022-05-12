@@ -13,6 +13,7 @@ function Home(){
         <Container>
             <Header>
                 <ConteudoTitulo>
+       <Pokebola width={24} height={24}/> 
                 <Titulo>Pokemon</Titulo>
                 </ConteudoTitulo>
                 <BotaoOrdenacao>
@@ -22,6 +23,7 @@ function Home(){
             </Header>
             <InputTexto placeholder="Procurar" />
         </Container>
+    <SmallCard/>
     )}
 
 export default Home;
